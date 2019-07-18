@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap')
+
+$nav-button-border-radius: 8px
+$default-font-size: 16px
+$content-editor-border: 1px solid lightgray
+$nav-height: 50px
+$active-color: #7EB3FF
+$default-font: 'Montserrat', sans-serif
+$title_font: 'Playfair Display', serif
+$subtitle_font: 'Open Sans', sans-serif
+$editor-top: 10px
+$editor-element-padding: 10px 10px 0 10px
+$smooth-animation: all .3s ease
+
+=deselect
+  -ms-user-select: none
+  -moz-user-select: none
+  -webkit-user-select: none
+  user-select: none
+
+.fade-enter-to, .fade-leave
+  opacity: 1
+.fade-enter-active, .fade-leave-active
+  transition: opacity .3s ease-in-out
+.fade-enter, .fade-leave-to
+  opacity: 0
