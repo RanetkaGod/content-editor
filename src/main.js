@@ -15,15 +15,7 @@ new Vue({
 }).$mount('#app')
 
 
-var firebase_config = {
-    apiKey: "AIzaSyCngEOxYs4dzyEg-pkA1nBe-3qm6bLWBNA",
-    authDomain: "blogrnt.firebaseapp.com",
-    databaseURL: "https://blogrnt.firebaseio.com",
-    projectId: "blogrnt",
-    storageBucket: "blogrnt.appspot.com",
-    messagingSenderId: "488445207512",
-    appId: "1:488445207512:web:1228ca6a11494da9"
-};
+var firebase_config = {***};
 firebase.initializeApp(firebase_config)
 
 export const db = firebase.firestore();
